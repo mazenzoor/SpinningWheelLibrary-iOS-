@@ -13,11 +13,11 @@
   ```
   
 2. Spin the wheel to index
-  ```objective-c
-  
-  wheel spinTo: 4];
-  
-  ```
+    ```objective-c
+
+    wheel spinTo: 4];
+
+    ```
   
 
 
