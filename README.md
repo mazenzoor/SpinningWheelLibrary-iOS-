@@ -5,9 +5,11 @@
 1. Create the Wheel Object <br>
 ```objective-c
 
-  //// Create the wheel object
+  //// Declare the wheel object
   @property (nonatomic, retain) Wheel * wheel;
   
+  
+  //// In ViewDidLoad
   wheel = [[Wheel alloc] initWithData: yourWheelImageView numberOfSlice: nbOfSlices];
   
   ```
