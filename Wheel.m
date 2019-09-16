@@ -21,7 +21,6 @@
 @synthesize go_to_degrees;
 @synthesize isAnimating;
 @synthesize wheel;
-@synthesize wheelImage;
 
 //// Initializer
 

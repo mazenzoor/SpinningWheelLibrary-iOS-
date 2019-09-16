@@ -52,7 +52,6 @@ NS_ASSUME_NONNULL_BEGIN
 //// Call when done animating
 @property (nonatomic, retain) id<DoneAnimating> _Nullable callback;
 
-@property (nonatomic, retain) IBOutlet UIImageView * wheelImage;
 
 
 -(id) initWithData:(UIImageView *) wheelImageView
