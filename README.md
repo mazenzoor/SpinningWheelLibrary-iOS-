@@ -1,4 +1,4 @@
-# SpinningWheelLibrary-iOS-
+# SpinningWheelLibrary (iOS) Documentation
 
 ### Implementation
 
