@@ -49,15 +49,32 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL isAnimating;
 
 
+//// Duration of the entire spin animation
+@property (nonatomic, assign) double duration;
+
+
+//// The number of spins to add to the animation
+@property (nonatomic, assign) NSInteger * spin_factor;
+
+
 //// Call when done animating
 @property (nonatomic, retain) id<DoneAnimating> _Nullable callback;
 
 
+//// The image of the wheel needle used for animation
+@property (nonatomic, strong) UIImageView * needle;
+
+
+
+
 
 -(id) initWithData:(UIImageView *) wheelImageView
-      numberOfSlice :(NSInteger *) nbOfSlices ;
+      numberOfSlice :(NSInteger *) nbOfSlices
+           needle : (UIImageView *) needle;
 
 -(void) spinTo:(NSInteger) index;
+
+-(void) animateNeedle;
 
 
 
