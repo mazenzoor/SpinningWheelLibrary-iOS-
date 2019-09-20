@@ -17,7 +17,7 @@
 2. Spin the wheel to index
     ```objective-c
 
-    wheel spinTo: 4];
+    [wheel spinTo: 4];
 
     ```
   
