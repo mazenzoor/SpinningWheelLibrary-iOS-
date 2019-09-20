@@ -10,7 +10,7 @@
   
   
   //// In ViewDidLoad
-  wheel = [[Wheel alloc] initWithData: yourWheelImageView numberOfSlice: nbOfSlices];
+  wheel = [[Wheel alloc] initWithData: yourWheelImageView numberOfSlice: nbOfSlices needle: needleImageView];
   
   ```
   
